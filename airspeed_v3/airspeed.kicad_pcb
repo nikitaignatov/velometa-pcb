@@ -195,7 +195,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Absolute Barometric Pressure Sensor, LGA-8"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -208,7 +208,7 @@
 			)
 		)
 		(property ki_fp_filters "Bosch*LGA*2x2.5mm*P0.65mm*")
-		(path "/f6878b7e-83d8-4659-8bbb-5403bcb8001d")
+		(path "/e12ac042-bf1e-4519-9987-7b64790482ca")
 		(sheetname "Root")
 		(sheetfile "airspeed.kicad_sch")
 		(attr smd)
@@ -532,7 +532,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/09d34685-df8c-4b15-979f-b1facef7696d")
+		(sheetname "Root")
+		(sheetfile "airspeed.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -1275,7 +1278,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/377fbcf6-6de8-4e71-898c-b711c2149c9c")
+		(sheetname "Root")
+		(sheetfile "airspeed.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -1694,7 +1700,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/93827351-0116-4f1f-ac16-27f36f686bc6")
+		(sheetname "Root")
+		(sheetfile "airspeed.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -2859,7 +2868,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "GPS"
+		(property "Value" "GPS Header"
 			(at -1.9 2.95 0)
 			(layer "B.SilkS" knockout)
 			(uuid "1de2372f-5607-43fd-96ae-44f97bbce945")
@@ -3468,7 +3477,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/d3c8e5b7-11c4-4546-b6c7-3f78c7f5681d")
+		(sheetname "Root")
+		(sheetfile "airspeed.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -4050,7 +4062,7 @@
 			)
 		)
 		(property "Value" "XGZP6897D"
-			(at 0.16 -6.28 270)
+			(at 0.16 -6.28 -90)
 			(layer "F.SilkS" knockout)
 			(uuid "5a3c0c1d-bc20-4970-8a2e-caf1b6a99a70")
 			(effects
@@ -4486,7 +4498,7 @@
 			)
 		)
 		(property "Value" "XGZP6897D"
-			(at 0.03 6.22 270)
+			(at 0.03 6.22 -90)
 			(layer "F.SilkS" knockout)
 			(uuid "8faddfb4-268b-4601-8bd5-e9d52d1dd39d")
 			(effects
@@ -4921,7 +4933,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "GPS"
+		(property "Value" "GPS connector"
 			(at -0.2 -0.8 180)
 			(layer "B.SilkS")
 			(uuid "b34cdc57-1e26-45ed-89b8-bf1a86fc699c")
@@ -4969,7 +4981,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/42c9a8c9-44fe-49a1-87d7-97f348ab4e5a")
+		(sheetname "Root")
+		(sheetfile "airspeed.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.11 1.785)
