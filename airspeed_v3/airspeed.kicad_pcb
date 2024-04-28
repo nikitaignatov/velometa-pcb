@@ -475,7 +475,7 @@
 		(tags "resistor")
 		(property "Reference" "R3"
 			(at -0.0225 1.76 90)
-			(layer "F.SilkS")
+			(layer "F.SilkS" knockout)
 			(uuid "c30b85cf-2b20-4c14-9952-c0a15ec0c15a")
 			(effects
 				(font
@@ -1637,7 +1637,7 @@
 		(tags "resistor")
 		(property "Reference" "R4"
 			(at 0.0325 -1.75 90)
-			(layer "F.SilkS")
+			(layer "F.SilkS" knockout)
 			(uuid "d8fbf4f7-2aea-4452-b84f-f03d09ed7798")
 			(effects
 				(font
