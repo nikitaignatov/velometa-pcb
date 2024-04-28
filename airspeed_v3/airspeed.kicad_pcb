@@ -150,8 +150,8 @@
 		(descr "LGA-8, https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001-18.pdf")
 		(tags "lga land grid array")
 		(property "Reference" "U8"
-			(at 2.675 -0.1 0)
-			(layer "F.SilkS")
+			(at -0.855 -2.3 90)
+			(layer "F.SilkS" knockout)
 			(uuid "eb4f9fea-1a2d-41a2-961e-6adde8a3d822")
 			(effects
 				(font
@@ -161,13 +161,13 @@
 			)
 		)
 		(property "Value" "BMP280"
-			(at 4.625 1.3 0)
-			(layer "F.Fab")
+			(at -2.135 -1.19 90)
+			(layer "F.SilkS" knockout)
 			(uuid "101f3366-1ade-4cd4-bce7-1e509d5e5986")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -472,8 +472,8 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(at 0.0175 1.66 90)
+			(layer "F.SilkS" knockout)
 			(uuid "f46f7700-be4c-4bcd-8b74-d8f8b15768e5")
 			(effects
 				(font
@@ -681,8 +681,8 @@
 		(descr "LGA-8")
 		(tags "lga land grid array")
 		(property "Reference" "U6"
-			(at -1 -2.8 90)
-			(layer "F.SilkS")
+			(at -0.8 -2.69 90)
+			(layer "F.SilkS" knockout)
 			(uuid "fd1fdb1a-1312-47d0-bc47-6258f711757f")
 			(effects
 				(font
@@ -692,13 +692,13 @@
 			)
 		)
 		(property "Value" "BME280"
-			(at 0.6 -5.1 90)
-			(layer "F.Fab")
+			(at 0.68 -3.76 90)
+			(layer "F.SilkS" knockout)
 			(uuid "27f5cc39-e3a2-41c8-af36-1bee00c9500f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1003,7 +1003,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0.15 1.7 180)
+			(at -0.07 1.83 -90)
 			(layer "F.SilkS" knockout)
 			(uuid "f3e4bbc9-042a-41c9-b475-bb7eb40e333f")
 			(effects
@@ -1212,8 +1212,8 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at -2.6125 0 0)
-			(layer "F.SilkS")
+			(at 0.01 -1.77 90)
+			(layer "F.SilkS" knockout)
 			(uuid "075d3f0e-474b-489e-96e2-63952ed8f876")
 			(effects
 				(font
@@ -1422,7 +1422,7 @@
 		(tags "capacitor")
 		(property "Reference" "C6"
 			(at -2.9 -0.1 90)
-			(layer "F.SilkS")
+			(layer "F.SilkS" knockout)
 			(uuid "0b4f1da1-2fc1-4751-aa4e-93c217f9de8b")
 			(effects
 				(font
@@ -1630,8 +1630,8 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(at 0 -1.65 90)
+			(layer "F.SilkS" knockout)
 			(uuid "3b66de50-5f05-4b13-a481-16f153960d82")
 			(effects
 				(font
@@ -1839,8 +1839,8 @@
 		(descr "Through hole straight pin header, 1x10, 1.27mm pitch, single row")
 		(tags "Through hole pin header THT 1x10 1.27mm single row")
 		(property "Reference" "J1"
-			(at 0 -1.695 90)
-			(layer "F.SilkS")
+			(at 0 -1.48 90)
+			(layer "F.SilkS" knockout)
 			(uuid "28c0be37-e00f-46a7-a5f0-6b72883b38c1")
 			(effects
 				(font
@@ -2209,8 +2209,8 @@
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 3.7 0 90)
-			(layer "F.SilkS")
+			(at 0.02 -1.86 90)
+			(layer "F.SilkS" knockout)
 			(uuid "1eb3449a-3650-47b2-a4f7-e85a5d54b5fb")
 			(effects
 				(font
@@ -2626,7 +2626,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at -0.05 -1.7 0)
+			(at 0.04 -1.81 90)
 			(layer "F.SilkS" knockout)
 			(uuid "c30e3f42-31f5-4f37-b721-86028d835517")
 			(effects
@@ -3391,8 +3391,8 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at -2.6125 0 0)
-			(layer "F.SilkS")
+			(at -0.04 1.77 90)
+			(layer "F.SilkS" knockout)
 			(uuid "33ea3a3b-fe66-4584-86d4-93710a5f1e8e")
 			(effects
 				(font
@@ -3714,8 +3714,8 @@
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at 0 -1.8 90)
-			(layer "F.SilkS")
+			(at 0.09 -1.77 90)
+			(layer "F.SilkS" knockout)
 			(uuid "4d9e7acb-02dd-4d25-b599-16ffa1017390")
 			(effects
 				(font
@@ -4028,13 +4028,13 @@
 			)
 		)
 		(property "Value" "XGZP6897D"
-			(at 0.8 -6.59 -90)
+			(at 0.16 -6.28 270)
 			(layer "F.SilkS" knockout)
 			(uuid "5a3c0c1d-bc20-4970-8a2e-caf1b6a99a70")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4302,7 +4302,7 @@
 			(uuid "aa4cced0-7195-4d47-a334-4d70b239b521")
 		)
 		(fp_text user "LP"
-			(at -2.7 4.9 -90)
+			(at -2.7 4.9 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1af12273-094f-4a7d-8bc4-7b11036247d8")
@@ -4315,7 +4315,7 @@
 			)
 		)
 		(fp_text user "HP"
-			(at 2.6 -4.7 -90)
+			(at 2.6 -4.7 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8d063956-9c01-43d2-b053-52c5df3e506d")
@@ -4462,13 +4462,13 @@
 			)
 		)
 		(property "Value" "XGZP6897D"
-			(at 6.89 -0.01 180)
+			(at 0.03 6.22 270)
 			(layer "F.SilkS" knockout)
 			(uuid "8faddfb4-268b-4601-8bd5-e9d52d1dd39d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -4736,7 +4736,7 @@
 			(uuid "f06980ba-a2a7-4036-842d-d70c6669978e")
 		)
 		(fp_text user "HP"
-			(at 2.6 -4.7 -90)
+			(at 2.6 -4.7 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0f89d368-7549-4b61-8d19-3dc81bc9a370")
@@ -4748,7 +4748,7 @@
 			)
 		)
 		(fp_text user "LP"
-			(at -2.7 4.9 -90)
+			(at -2.7 4.9 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2f523d59-1550-4fd0-8c72-fbae9d575d6f")
@@ -5289,7 +5289,7 @@
 		(uuid "d5e6e702-f4ac-44f2-be92-eb736f20548d")
 	)
 	(gr_text "${REVISION} - ${CURRENT_DATE} - niig "
-		(at 88.8 44.9 0)
+		(at 99.13 51.44 90)
 		(layer "B.SilkS")
 		(uuid "23fd1035-7924-46aa-bef3-5c43ec76447c")
 		(effects
@@ -5410,7 +5410,7 @@
 		)
 	)
 	(gr_text "velometa.com/airspeed"
-		(at 88.8 43.4 0)
+		(at 97.63 51.44 90)
 		(layer "B.SilkS" knockout)
 		(uuid "b3a1cf98-fe2f-4532-abc5-dc20e0fc6279")
 		(effects
@@ -5434,7 +5434,7 @@
 		)
 	)
 	(gr_text "v3.2 - 2024.04.28 - niig"
-		(at 71 44.9 0)
+		(at 99.13 69.24 90)
 		(layer "F.SilkS")
 		(uuid "39216d5d-6201-4f8e-a12c-f6c9b26e6ba2")
 		(effects
@@ -5447,7 +5447,7 @@
 		)
 	)
 	(gr_text "velometa.com/airspeed"
-		(at 71 43.4 0)
+		(at 97.63 69.24 90)
 		(layer "F.SilkS" knockout)
 		(uuid "da4bc8a7-498b-4c2b-a2bb-a1a4e9fb0978")
 		(effects
