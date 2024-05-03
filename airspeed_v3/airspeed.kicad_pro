@@ -521,7 +521,7 @@
       "plot": "/home/niig/git/velometa-pcb/airspeed_v3/plots/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "airspeed.step",
       "svg": "",
       "vrml": ""
     },
